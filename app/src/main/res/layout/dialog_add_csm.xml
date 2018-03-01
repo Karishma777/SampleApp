@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <in.explicate.fcm.util.CustomTextView
+        android:padding="10dp"
+        android:text="ADD CSM"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:editable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Select Infra"
+                    android:id="@+id/spinnerSelectInfra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <EditText
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:editable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_marginTop="10dp"
+                    android:hint="Select Category"
+                    android:id="@+id/spinnerCategories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+
+
+                <EditText
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:editable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_marginTop="10dp"
+                    android:hint="Select Category Type"
+                    android:id="@+id/spinnerType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editdesc"
+                    android:hint="Enter Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/addCSM"
+                android:layout_marginTop="30dp"
+                android:text="ADD"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

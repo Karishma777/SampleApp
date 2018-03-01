@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:id="@+id/searchll"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tdate"
+                android:layout_width="wrap_content"
+                android:text="Date Range"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_toRightOf="@+id/tdate"
+                android:id="@+id/datepickerTo"
+                android:gravity="left|center"
+                android:textAllCaps="false"
+                android:background="#FFF"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:text="From"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_toRightOf="@+id/tdate"
+                android:id="@+id/tdot"
+                android:layout_width="wrap_content"
+                android:text=" - "
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_toRightOf="@+id/tdot"
+                android:id="@+id/datepickerfrom"
+                android:gravity="left|center"
+                android:textAllCaps="false"
+                android:background="#FFF"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:text="To"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:hint="Search Notification"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/datepicker"
+            android:id="@+id/editsearch"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="#ccc"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/editsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"/>
+
+
+    </LinearLayout>
+
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/searchll"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:id="@+id/swipe_layout">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:id="@+id/recycler_view" />
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/datanotfound"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:text="No new notification to show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </RelativeLayout>

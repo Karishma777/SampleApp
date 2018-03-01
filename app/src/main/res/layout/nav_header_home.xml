@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <in.explicate.fcm.util.RoundedImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/amitabh"/>
+
+    <in.explicate.fcm.util.CustomTextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Amitabh Bachchan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <in.explicate.fcm.util.CustomTextView
+        android:id="@+id/textView"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="amitabh@gmail.com" />
+
+</LinearLayout>

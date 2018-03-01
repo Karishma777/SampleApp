@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/prgoress_item"/>
+
+        <LinearLayout
+            android:layout_below="@+id/loaderll"
+            android:background="@color/comintteebgcolor"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:text="Select Date"
+                    android:layout_height="wrap_content" />
+
+
+
+                <EditText
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:editable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:background="@drawable/xml_background"
+                    android:id="@+id/editDate"
+                    android:text="Click here to select Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recyclerView" />
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:id="@+id/llFontSize"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <in.explicate.fcm.util.CustomTextView
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:text="Font Size"
+            android:layout_height="wrap_content" />
+
+
+        <in.explicate.fcm.util.CustomTextView
+            android:id="@+id/txtFontSize"
+            android:layout_width="match_parent"
+            android:textStyle="italic"
+            android:text="Medium"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/liteGray"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/llNotification"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+        <in.explicate.fcm.util.CustomTextView
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:text="Notification Sound"
+            android:layout_height="wrap_content" />
+
+
+        <in.explicate.fcm.util.CustomTextView
+            android:id="@+id/txtNotification"
+            android:layout_width="match_parent"
+            android:textStyle="italic"
+            android:text="Default"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/liteGray"
+        android:layout_height="2dp"/>
+
+
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:id="@+id/llpassword"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+        <in.explicate.fcm.util.CustomTextView
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:drawableRight="@drawable/drawable_left"
+            android:text="Change Password"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/liteGray"
+        android:layout_height="2dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/llNotification"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+        <in.explicate.fcm.util.CustomTextView
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:text="FCM ID"
+            android:layout_height="wrap_content" />
+
+
+        <in.explicate.fcm.util.CustomTextView
+            android:id="@+id/txtFCMID"
+            android:layout_width="match_parent"
+            android:textStyle="italic"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/liteGray"
+        android:layout_height="2dp"/>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lluserid"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <in.explicate.fcm.util.CustomTextView
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:text="USER ID"
+            android:layout_height="wrap_content" />
+
+
+        <in.explicate.fcm.util.CustomTextView
+            android:id="@+id/txtUserID"
+            android:layout_width="match_parent"
+            android:textStyle="italic"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/liteGray"
+        android:layout_height="2dp"/>
+
+
+
+
+
+</LinearLayout>

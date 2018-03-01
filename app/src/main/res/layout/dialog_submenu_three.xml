@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:weightSum="3"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/llonee"
+        android:layout_width="0dp"
+        android:background="@color/three"
+        android:layout_weight="1"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/imgone"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_one"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textone"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/imgone"
+            android:text="Home"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lltwo"
+        android:layout_width="0dp"
+        android:background="@color/six"
+        android:layout_weight="1"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/imgtwo"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_two"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/texttwo"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/imgtwo"
+            android:text="My Info"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/llthree"
+        android:layout_width="0dp"
+        android:background="@color/eight"
+        android:layout_weight="1"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/imgthree"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_three"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textthree"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/imgone"
+            android:text="CSM"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <in.explicate.fcm.util.CustomTextView
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:gravity="center"
+        android:id="@+id/lldetails"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:text="DETAILS"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_below="@+id/lldetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+
+
+            <in.explicate.fcm.util.CustomTextView
+                android:layout_width="match_parent"
+                android:text="Subject"
+                android:textStyle="italic"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <in.explicate.fcm.util.CustomTextView
+                android:id="@+id/tvSubject"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:text="Subject"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+            <in.explicate.fcm.util.CustomTextView
+                android:layout_width="match_parent"
+                android:text="Department"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content" />
+
+
+            <in.explicate.fcm.util.CustomTextView
+                android:id="@+id/tvDeaprtment"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:text="PMS"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <in.explicate.fcm.util.CustomTextView
+                android:layout_width="match_parent"
+                android:text="Date"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content" />
+
+
+            <in.explicate.fcm.util.CustomTextView
+                android:id="@+id/tvDate"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:text="data"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+
+
+            <in.explicate.fcm.util.CustomTextView
+                android:layout_width="match_parent"
+                android:text="Description"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content" />
+
+
+            <in.explicate.fcm.util.CustomTextView
+                android:id="@+id/tvDetails"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:text="Detials"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+            <in.explicate.fcm.util.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="right"
+                android:text="Replay"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content" />
+
+
+            <in.explicate.fcm.util.CustomTextView
+                android:id="@+id/tvReply"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:text="Detials"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+            <in.explicate.fcm.util.CustomTextView
+                android:id="@+id/tvReplyDate"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:text="date"
+                android:padding="10dp"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

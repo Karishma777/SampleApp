@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/liteGray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <in.explicate.fcm.util.CustomTextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvTitle"
+        android:padding="10dp"
+        android:text="MEMBERS"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+       <android.support.v7.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:background="@color/liteGray"
+           android:layout_marginBottom="10dp"
+           android:id="@+id/recyclerView"
+           android:layout_height="wrap_content">
+
+
+       </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

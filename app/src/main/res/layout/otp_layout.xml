@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#00b1e1"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:background="#f2f2f2"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:background="#E2E2E2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:text="OTP Authentication"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/lblmobile"
+                android:layout_width="match_parent"
+                android:text="Mobile Number"
+                android:textColor="#000"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/editmobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/lblotp"
+                android:layout_width="match_parent"
+                android:text="OTP"
+                android:textColor="#000"
+
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/editotp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="SEND OTP"
+                android:background="@drawable/green_button"
+                android:textSize="14sp"
+                android:textColor="#fcfcfc"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+
+                android:id="@+id/resend"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:text="Resend OTP"
+                android:textColor="#000"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

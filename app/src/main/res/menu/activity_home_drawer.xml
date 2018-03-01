@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grphome" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+
+    </group>
+
+    <group android:id="@+id/grpinfra" android:checkableBehavior="single">
+
+
+    <item
+            android:icon="@drawable/ic_activity"
+            android:title="My Info" >
+
+            <menu>
+
+                    <item
+                        android:id="@+id/nav_my_infra_info"
+                        android:title="My Infra Info" >
+                    </item>
+
+                    <item
+                        android:id="@+id/nav_add_my_infra"
+                        android:title="Add My Infra" >
+                    </item>
+
+                    <item
+                        android:id="@+id/nav_my_devices"
+                        android:title="My Devices" >
+                    </item>
+
+            </menu>
+
+
+        </item>
+
+    </group>
+
+
+        <item
+            android:icon="@drawable/ic_complaint"
+            android:title="CSM Registration">
+            <menu android:checkableBehavior="all">
+
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_my_csm"
+                        android:title="My CSM" >
+
+                    </item>
+
+                    <item
+                        android:id="@+id/nav_other_csm"
+                        android:title="Other CSM" >
+                    </item>
+
+                </group>
+            </menu>
+            </item>
+
+        <item
+            android:icon="@drawable/ic_club"
+            android:title="@string/menu_club_house_info">
+
+
+            <menu android:checkableBehavior="all">
+
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_availability"
+                        android:title="Availability" >
+
+                    </item>
+
+                    <item
+                        android:id="@+id/nav_reservation"
+                        android:title="Reservation" >
+                    </item>
+
+
+                    <item
+                        android:id="@+id/nav_club_booking"
+                        android:title="Confirmed Booking" >
+                    </item>
+
+                </group>
+            </menu>
+
+            </item>
+
+        <item
+            android:icon="@drawable/ic_club"
+            android:title="Badminton Court">
+
+
+            <menu android:checkableBehavior="all">
+
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_badminton_availability"
+                        android:title="Availability" >
+
+                    </item>
+
+                    <item
+                        android:id="@+id/nav_badminton_booking"
+                        android:title="Confirmed Booking" >
+                    </item>
+
+                </group>
+            </menu>
+
+        </item>
+
+
+        <item
+            android:icon="@drawable/ic_activity"
+            android:title="@string/menu_activity" >
+
+            <menu android:checkableBehavior="all">
+
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_activity_common"
+                        android:title="Common" >
+
+                    </item>
+
+                    <item
+                        android:id="@+id/nav_activity_my_roject"
+                        android:title="My Project" >
+                    </item>
+
+                </group>
+            </menu>
+
+
+        </item>
+
+
+    <group android:id="@+id/grpstdproc" android:checkableBehavior="single">
+
+    <item
+            android:id="@+id/nav_standard"
+            android:icon="@drawable/ic_workflow"
+            android:title="@string/menu_standard" />
+
+    </group>
+
+        <item
+            android:icon="@drawable/ic_activity"
+            android:title="Classifieds" >
+
+            <menu android:checkableBehavior="all">
+
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_my_classifieds"
+                        android:title="My Classifieds" >
+
+                    </item>
+
+                    <item
+                        android:id="@+id/nav_other_classifieds"
+                        android:title="Other Classifieds" >
+                    </item>
+
+                </group>
+            </menu>
+
+
+        </item>
+
+
+        <item
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/menu_feedback">
+
+            <menu android:checkableBehavior="all">
+
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_feedback_my_magarpatta"
+                        android:title="To Magarpatta" >
+
+                    </item>
+
+                    <item
+                        android:id="@+id/nav_feedback_to_committees"
+                        android:title="To Committees" >
+                    </item>
+
+                </group>
+            </menu>
+
+
+        </item>
+
+
+
+
+        <item
+            android:icon="@drawable/ic_comments"
+            android:title="@string/menu_suggestion" >
+
+            <menu android:checkableBehavior="all">
+
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_suggestion_my_magarpatta"
+                        android:title="To Magarpatta" >
+
+                    </item>
+
+                    <item
+                        android:id="@+id/nav_suggestion_to_committees"
+                        android:title="To Committees" >
+                    </item>
+
+                </group>
+            </menu>
+
+
+        </item>
+
+    <group android:id="@+id/grpnews" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_newsletter"
+            android:icon="@drawable/ic_news"
+            android:title="@string/menu_news_letter" />
+
+    </group>
+
+    <group android:id="@+id/grpcontact" android:checkableBehavior="single">
+
+
+    <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_employee"
+            android:title="@string/menu_contact" />
+
+    </group>
+
+    <group android:id="@+id/grpcommittee" android:checkableBehavior="single">
+
+
+    <item
+            android:id="@+id/nav_committes"
+            android:icon="@drawable/ic_committe"
+            android:title="Committees Info" />
+
+    </group>
+
+
+    <group android:id="@+id/grpcounsil" android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/nav_council"
+            android:icon="@drawable/ic_council"
+            android:title="Council Info" />
+    </group>
+
+
+    <group android:id="@+id/grpsetting" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/menu_settings" />
+    </group>
+
+
+
+</menu>

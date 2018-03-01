@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_marginTop="5dp"
+    card_view:cardElevation="2dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/llnames"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <in.explicate.fcm.util.CustomTextView
+                android:id="@+id/tvcategoryName"
+                android:text="Mahesh Bhople"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <in.explicate.fcm.util.CustomTextView
+                android:id="@+id/tvDescription"
+                android:text="Mahesh Bhople"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <in.explicate.fcm.util.CustomTextView
+                android:id="@+id/tvResponseCount"
+                android:textStyle="italic"
+                android:text="Mahesh Bhople"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

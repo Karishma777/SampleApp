@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#457fca</color>
+    <color name="colorPrimaryDark">#3c81d9</color>
+    <color name="colorAccent">#457fca</color>
+    <color name="white">#FFFF</color>
+    <color name="black">#000</color>
+    <color name="gray">#676767</color>
+    <color name="liteGray">#e0e0e0</color>
+
+    <color name="colororange">#FF4500</color>
+
+    <color name="contactcolor">#94457fca</color>
+
+    <color name="notibg">#228ff4</color>
+
+
+   <!-- <color name="newsbgcolor">#ad9189fd</color>
+    <color name="newstoolbar">#9189fd</color>
+
+    <color name="comintteebgcolor">#b216a085</color>
+    <color name="committeetoolbar">#16a085</color> -->
+
+    <color name="newsbgcolor">#b3457fca</color>
+    <color name="newstoolbar">#457fca</color>
+    <color name="comintteebgcolor">#b3457fca</color>
+    <color name="committeetoolbar">#457fca</color>
+    <color name="empbgcolor">#b3457fca</color>
+    <color name="emptoolbar">#457fca</color>
+    <color name="councilbgcolor">#b3457fca</color>
+    <color name="counciltoolbar">#457fca</color>
+
+   <!-- <color name="councilbgcolor">#b0fcdaec</color>
+    <color name="counciltoolbar">#fcdaec</color> -->
+
+    <color name="alerterrorcolorbg">#a4e74c3c</color>
+    <color name="red">#e74c3c</color>
+
+    <color name="alertwarncolorbg">#faebcc</color>
+    <color name="warncolor">#fcf8e3</color>
+    <color name="warnbordercolor">#faebcc</color>
+    <color name="warntextcolor">#8a6d3b</color>
+
+    <color name="alertsuccesscolorbg">#994caf50</color>
+    <color name="successcolor">#4caf50</color>
+
+    <color name="one">#930945</color>
+    <color name="two">#ea6913</color>
+    <color name="three">#3eb8c5</color>
+    <color name="four">#f089a9</color>
+    <color name="five">#5c4a88</color>
+
+    <color name="six">#00abff</color>
+    <color name="seven">#5c4a88</color>
+    <color name="eight">#80c595</color>
+    <color name="nine">#ffb62b</color>
+    <color name="ten">#ff6363</color>
+    <color name="eleven">#ff879a</color>
+    <color name="tweleve">#e88b65</color>
+    <color name="thrteen">#e03c3c</color>
+    <color name="fourteen">#a0404e</color>
+    <color name="fifteen">#c2b2ff</color>
+
+
+    <color name="bgcouncil">#4eff6363</color>
+    <color name="toolbarcouncil">#ff6363</color>
+    <color name="stauscouncil">#fa4949</color>
+
+    <color name="bgcommittee">#565c4a88</color>
+    <color name="toolbarcommittee">#5c4a88</color>
+    <color name="stauscomittee">#57418c</color>
+
+    <color name="bgcontact">#4aa0404e</color>
+    <color name="toolbarcontact">#a0404e</color>
+    <color name="stauscontact">#a33141</color>
+
+    <color name="bgnewsletter">#4fffb62b</color>
+    <color name="toolbarnewsletter">#ffb62b</color>
+    <color name="stausnewsletter">#f7a70e</color>
+
+    <color name="bgsop">#e33eb8c5</color>
+    <color name="toolbarsop">#3eb8c5</color>
+    <color name="staussop">#03a2b3</color>
+
+    <color name="bgactivity">#b5e88b65</color>
+    <color name="toolbaractivity">#e88b65</color>
+    <color name="stausactivity">#e6794c</color>
+
+</resources>

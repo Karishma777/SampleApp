@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/xml_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/llresponses"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/responseText"
+            android:text="I want Cell phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/responseText"
+            android:textColor="@color/gray"
+            android:textStyle="italic"
+            android:id="@+id/responseBy"
+            android:text="Response By: Mahesh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/responseBy"
+            android:textColor="@color/gray"
+            android:textStyle="italic"
+            android:id="@+id/responsedate"
+            android:text="13-Dec-2017"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:background="@drawable/xml_lite_background"
+        android:id="@+id/llreplies"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:id="@+id/replyText"
+            android:text="I want Cell phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/replyText"
+            android:textColor="@color/gray"
+            android:textStyle="italic"
+            android:id="@+id/replyBy"
+            android:text="Response By: Mahesh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/replyBy"
+            android:textColor="@color/gray"
+            android:textStyle="italic"
+            android:id="@+id/replydate"
+            android:text="13-Dec-2017"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
